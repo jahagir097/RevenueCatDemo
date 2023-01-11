@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.revenuecatdemo.jploft"
+4    android:versionCode="14"
+5    android:versionName="2.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="com.android.vending.BILLING" />
+12-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:5:1-63
+12-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:5:18-60
+13    <!-- Required by older versions of Google Play services to create IID tokens -->
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/admin/.gradle/caches/transforms-3/89eb40e51d9a03750fe3a25c96373511/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/admin/.gradle/caches/transforms-3/89eb40e51d9a03750fe3a25c96373511/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/admin/.gradle/caches/transforms-3/318328e3183509abffbee01fc4efd067/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/admin/.gradle/caches/transforms-3/318328e3183509abffbee01fc4efd067/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:6:5-26:19
+18        android:name="com.revenuecatdemo.jploft.MainApplication"
+18-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] /Users/admin/.gradle/caches/transforms-3/6be23c5517985f19fcabc9b798caadc5/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:10:7-52
+24        android:theme="@style/AppTheme"
+24-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:13:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:12:7-42
+26        <activity
+26-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:14:7-25:18
+27            android:name="com.revenuecatdemo.jploft.MainActivity"
+27-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:15:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+28-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:17:9-118
+29            android:exported="true"
+29-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:20:9-32
+30            android:label="@string/app_name"
+30-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:16:9-41
+31            android:launchMode="singleTask"
+31-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:18:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:19:9-51
+33            <intent-filter>
+33-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:21:9-24:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:22:13-65
+34-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:22:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:23:13-73
+36-->/Users/admin/Desktop/RevenueCatDemo/android/app/src/main/AndroidManifest.xml:23:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.google.android.gms:play-services-base:17.0.0] /Users/admin/.gradle/caches/transforms-3/37f8ffa3ec488a48f4844b49ea25bc5d/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+40            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+40-->[com.google.android.gms:play-services-base:17.0.0] /Users/admin/.gradle/caches/transforms-3/37f8ffa3ec488a48f4844b49ea25bc5d/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-base:17.0.0] /Users/admin/.gradle/caches/transforms-3/37f8ffa3ec488a48f4844b49ea25bc5d/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-base:17.0.0] /Users/admin/.gradle/caches/transforms-3/37f8ffa3ec488a48f4844b49ea25bc5d/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+43
+44        <receiver
+44-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:10:9-17:20
+45            android:name="com.amazon.device.iap.ResponseReceiver"
+45-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:11:13-66
+46            android:exported="true"
+46-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:12:13-36
+47            android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" >
+47-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:13:13-79
+48            <intent-filter>
+48-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:14:13-16:29
+49                <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+49-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:15:17-77
+49-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:15:25-74
+50            </intent-filter>
+51        </receiver>
+52
+53        <activity
+53-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:19:9-22:75
+54            android:name="com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity"
+54-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:20:13-97
+55            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+55-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:21:13-96
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.revenuecat.purchases:purchases-store-amazon:5.6.5] /Users/admin/.gradle/caches/transforms-3/c3e9ada676abc79c7c1d1e0e5ce227bf/transformed/jetified-purchases-store-amazon-5.6.5/AndroidManifest.xml:22:13-72
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:17.0.0] /Users/admin/.gradle/caches/transforms-3/c0b86808731a4a9f10bb9c1bec75b274/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:17.0.0] /Users/admin/.gradle/caches/transforms-3/c0b86808731a4a9f10bb9c1bec75b274/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+60            android:value="@integer/google_play_services_version" />
+60-->[com.google.android.gms:play-services-basement:17.0.0] /Users/admin/.gradle/caches/transforms-3/c0b86808731a4a9f10bb9c1bec75b274/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64            android:authorities="com.revenuecatdemo.jploft.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/admin/.gradle/caches/transforms-3/b6fe4da57007a43d86a66ba4c66459bd/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.5.0] /Users/admin/.gradle/caches/transforms-3/4b0423e7792a079997952c2b81aa01f8/transformed/jetified-lifecycle-process-2.5.0/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.5.0] /Users/admin/.gradle/caches/transforms-3/4b0423e7792a079997952c2b81aa01f8/transformed/jetified-lifecycle-process-2.5.0/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.5.0] /Users/admin/.gradle/caches/transforms-3/4b0423e7792a079997952c2b81aa01f8/transformed/jetified-lifecycle-process-2.5.0/AndroidManifest.xml:33:17-49
+72        </provider>
+73
+74        <meta-data
+74-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:13:9-15:37
+75            android:name="com.google.android.play.billingclient.version"
+75-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:14:13-73
+76            android:value="4.1.0" />
+76-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:15:13-34
+77
+78        <activity
+78-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:17:9-21:75
+79            android:name="com.android.billingclient.api.ProxyBillingActivity"
+79-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:18:13-78
+80            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+80-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:19:13-96
+81            android:exported="false"
+81-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:20:13-37
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.android.billingclient:billing:4.1.0] /Users/admin/.gradle/caches/transforms-3/72bba3fbee96c4ddaa033af0c7f22759/transformed/jetified-billing-4.1.0/AndroidManifest.xml:21:13-72
+83    </application>
+84
+85</manifest>
